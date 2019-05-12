@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <EditText
+        android:gravity="center"
+        android:id="@+id/num1Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter number 1"/>
+    <EditText
+        android:gravity="center"
+        android:id="@+id/num2Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter number 2"
+        android:layout_below="@+id/num1Txt"/>
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/ADD"
+        android:layout_below="@+id/num2Txt"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="ADD"/>
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/SUB"
+        android:layout_below="@+id/ADD"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="SUBTRACT"/>
+
+
+
+</RelativeLayout>
